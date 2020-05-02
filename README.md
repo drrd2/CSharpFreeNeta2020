@@ -1,3 +1,3 @@
 # CSharp
-Netacademia_oktatas
+Netacademia_oktatas - 
 Programozási alapismeretek C# nyelven (classic)
