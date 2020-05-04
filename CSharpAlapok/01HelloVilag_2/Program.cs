@@ -4,6 +4,8 @@ namespace _01HelloVilag_2
 {
     class Program
     {
+
+        // Giten a név megváltoztatása
         static void Main(string[] args)
         {
             // A C# Case sensitive nyelv, azaz mekölönbözteti a kis-Nagy betűket
@@ -16,7 +18,6 @@ namespace _01HelloVilag_2
              *"A királynét megölni nem kell, félnetek jó lesz "          nem ugyan az mint
              * "A királynőt megölni, nem kell félnetek, jó lesz" 
              */
-
             Console.WriteLine("Hello World!");
             Console.ReadKey();
         }
