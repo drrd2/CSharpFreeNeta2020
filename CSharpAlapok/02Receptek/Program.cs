@@ -56,7 +56,23 @@ namespace _02Receptek
             // Datetime.Today      ->     a mai dátumot adja meg
             // DateTime.Today.DayOfWeek    ->  milyen nap van ma
 
-            if (DateTime.Today.DayOfWeek==DayOfWeek.Tuesday)
+
+
+            // Lépésekre bontjuk a bonyolult részt
+            //változó: variable, rövidítve : var:
+
+            //ltrehozunk egy maiNap nevű változót 
+            //és megadjuk neki a mai napot:
+            var maiNap = DateTime.Today;
+
+            //a mai nap az a hétnek melyik napja:
+            var maiNapNeve = maiNap.DayOfWeek;
+
+            //melyik napon van hal a piacon:
+            var maVanHalAPiacon = DayOfWeek.Friday;
+
+            //if (DateTime.Today.DayOfWeek==DayOfWeek.Tuesday)  // ezt a sort erre tudjuk cserélni:
+            if(maiNapNeve==maVanHalAPiacon)
             {
                 Console.WriteLine("Valamilyen halas étel recept hozzávalók.. \n(hal\ncitrom\nfűszerek)");            
             }
